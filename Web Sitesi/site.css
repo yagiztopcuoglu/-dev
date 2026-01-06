@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif; text-transform: capitalize;box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    border: none;
+  
+    text-decoration: none;
+   
+}
+body{
+    background: url(İmage/Anasayfaarkaplan.jpg);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+/*Header başlangıcı*/
+header .logo img{
+    height: 10rem; 
+ }
+ 
+ header
+ {
+     background-color: white;justify-content:space-between;
+     display: flex;
+     padding: 0 7%;
+     position: sticky;
+     
+    
+      box-shadow:0px 0px 17px -2px rgba(0,0,0,0.75);
+     top: 0;align-items: center;
+     z-index: 1000;
+     opacity: 0.8;
+ }
+ header .navbar a{
+     margin: 3px;
+     font-size: 16px;
+     color: black;
+     border-bottom: 1px solid transparent;
+     
+ }
+ header .navbar .active{
+    border-color: black;
+    padding-bottom: 5px;
+ }
+ header .navbar a:hover{
+     
+     border-color: black;
+    padding-bottom: 5px;
+ }
+
+
+ /*Section*/
+ section{
+    padding: 3.5rem 7%;
+}
+.home{
+min-height: 100vh;margin-top: -10.2rem; background-position: center;
+/*background: url(cropped-1920-1080-1202691.jpg) no-repeat;*/
+
+
+
+display: flex;
+align-items: center;
+box-shadow: inset 0px -21px 55px 0px rgba(0,0,0,0.75);background-size:cover;}
+.home .content{
+    max-width: 60rem;
+   
+ }
+ .home .content h3{
+     font-size: 6rem;
+     color: rgb(0, 0, 0);
+ }
+ .home .content p{
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 18px;
+     padding: 1rem 0;
+     color: #000000;
+ }
+ .btn{
+     margin-top: 10px;
+     display: inline-block;
+     padding: 30px 25px;
+     border-radius: 300px;
+     font-size: 17px;
+     color: #ffffff;
+     background-color: black;
+     cursor:pointer;
+ }
+ .heading{
+     color: #000000;
+     text-transform: uppercase;  
+       font-size: 40px;
+     margin-bottom: 35px;
+     border-bottom: 1px solid #fff;
+     
+ }
+ .heading span{
+     text-transform: uppercase;
+     color: black;
+ 
+ }
